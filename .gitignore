@@ -8,6 +8,7 @@ node_modules
 
 # local env files
 .env
+.env.production
 .env.local
 .env.*.local
 
@@ -26,4 +27,10 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+# Cypress
 cypress.env.json
+
+# firebase
+.firebase
+.firebaserc
+firebase.json

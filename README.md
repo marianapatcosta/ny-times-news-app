@@ -1,6 +1,6 @@
 # New York Times News App
 
-Simple News App fetching news data from the New York Times API. Developed using Vue3 with JavaScript SCSS, Vuex, JEST and Cypress.
+Simple News Web App fetching news data from the New York Times API. Developed using Vue3 with JavaScript SCSS, Vuex, JEST and Cypress.
 
 
 ## Project setup
