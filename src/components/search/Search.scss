@@ -1,0 +1,13 @@
+.search {
+  height: 2rem;
+  border: 0.15rem solid $color-secondary;
+  padding: 0.3rem 0.5rem;
+
+  &:focus {
+    border: 0.15rem solid $color-transparent;
+  }
+
+  &::placeholder {
+    opacity: 0.8;
+  }
+}

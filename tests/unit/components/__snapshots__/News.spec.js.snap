@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News.vue should render without errors and match snapshot renders correctly 1`] = `
+<li
+  aria-label="Click to check news details."
+  class="news"
+  data-cy="news"
+  role="button"
+  tabindex="0"
+>
+  <img
+    alt="The headline"
+    class="news__image"
+    src="https://www.nytimes.com/images/2021/10/15/t-magazine/15tmag-harlemymca-slide-AEU3-copy/15tmag-harlemymca-slide-AEU3-copy-articleLarge.jpg"
+  />
+  <div
+    class="news__content"
+  >
+    <h2
+      class="news__header"
+      data-cy="news-header"
+    >
+      The headline
+    </h2>
+    <div
+      class="news__subheader"
+    >
+      <time
+        class="news__date"
+        datetime="2021-10-15T11:00:12+0000"
+      >
+        October 15, 2021
+      </time>
+      <div
+        class="news__section-name"
+      >
+        T Magazine
+      </div>
+    </div>
+    <div
+      class="news__main"
+    >
+      <div
+        class="news__details"
+      >
+        Lorem ipsum dolor sit amet. Non fugiat mollitia est nihil fugiat ea amet exercitationem. Et similique minus qui voluptas galisum et culpa tempora ea reprehenderit repudiandae.
+      </div>
+    </div>
+    <div
+      class="news__footer"
+    >
+       Source: The New York Times
+    </div>
+  </div>
+</li>
+`;

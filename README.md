@@ -1,33 +1,40 @@
-# jumia-challenge-js
+# New York Times News App
+
+Simple News App fetching news data from the New York Times API. Developed using Vue3 with JavaScript SCSS, Vuex, JEST and Cypress.
+
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
+
+Be sure that the following files and renamed and fulfilled with your NY times api key:
+- rename `env.example` to `env` and assign your NY times api key to *VUE_APP_NY_TIMES_API_KEY*.
+- rename `cypress.env.example.json` to `cypress.env.json` and assign your NY times api key to *nyTimesApiKey*.
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
 
 ### Run your unit tests
 ```
-npm run test:unit
+yarn test:unit
 ```
 
 ### Run your end-to-end tests
 ```
-npm run test:e2e
+yarn test:e2e
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
 
 ### Customize configuration

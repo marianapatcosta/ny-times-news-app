@@ -1,0 +1,1200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsList.vue with successful GET request should render without errors and match snapshot renders correctly 1`] = `
+<div
+  class="news-list"
+  data-cy="news-list"
+>
+  <div
+    class="news-list__toolbar"
+  >
+    <input
+      aria-label="Search New York time News"
+      class="search"
+      placeholder="Search by..."
+      type="search"
+    />
+    <div
+      class="filter"
+      data-cy="filter"
+    >
+      <button
+        aria-label="Click to check filter options"
+        class="filter__button"
+      >
+        Filter by
+      </button>
+      <ul
+        class="filter__content"
+        style="display: none;"
+      >
+        <li>
+          <input
+            aria-label="Search section..."
+            class="filter__search"
+            placeholder="Search section..."
+          />
+        </li>
+        
+        <li
+          aria-label="Click to filter All"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          All
+        </li>
+        <li
+          aria-label="Click to filter Arts"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Arts
+        </li>
+        <li
+          aria-label="Click to filter Automobiles"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Automobiles
+        </li>
+        <li
+          aria-label="Click to filter Autos"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Autos
+        </li>
+        <li
+          aria-label="Click to filter Blogs"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Blogs
+        </li>
+        <li
+          aria-label="Click to filter Books"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Books
+        </li>
+        <li
+          aria-label="Click to filter Booming"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Booming
+        </li>
+        <li
+          aria-label="Click to filter Business"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Business
+        </li>
+        <li
+          aria-label="Click to filter Business Day"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Business Day
+        </li>
+        <li
+          aria-label="Click to filter Corrections"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Corrections
+        </li>
+        <li
+          aria-label="Click to filter Crosswords & Games"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Crosswords & Games
+        </li>
+        <li
+          aria-label="Click to filter Crosswords/Games"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Crosswords/Games
+        </li>
+        <li
+          aria-label="Click to filter Dining & Wine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Dining & Wine
+        </li>
+        <li
+          aria-label="Click to filter Dining and Wine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Dining and Wine
+        </li>
+        <li
+          aria-label="Click to filter Editors' Notes"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Editors' Notes
+        </li>
+        <li
+          aria-label="Click to filter Education"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Education
+        </li>
+        <li
+          aria-label="Click to filter Fashion & Style"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Fashion & Style
+        </li>
+        <li
+          aria-label="Click to filter Food"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Food
+        </li>
+        <li
+          aria-label="Click to filter Front Page"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Front Page
+        </li>
+        <li
+          aria-label="Click to filter Giving"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Giving
+        </li>
+        <li
+          aria-label="Click to filter Global Home"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Global Home
+        </li>
+        <li
+          aria-label="Click to filter Great Homes & Destinations"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Great Homes & Destinations
+        </li>
+        <li
+          aria-label="Click to filter Great Homes and Destinations"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Great Homes and Destinations
+        </li>
+        <li
+          aria-label="Click to filter Health"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Health
+        </li>
+        <li
+          aria-label="Click to filter Home & Garden"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Home & Garden
+        </li>
+        <li
+          aria-label="Click to filter Home and Garden"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Home and Garden
+        </li>
+        <li
+          aria-label="Click to filter International Home"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          International Home
+        </li>
+        <li
+          aria-label="Click to filter Job Market"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Job Market
+        </li>
+        <li
+          aria-label="Click to filter Learning"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Learning
+        </li>
+        <li
+          aria-label="Click to filter Magazine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Magazine
+        </li>
+        <li
+          aria-label="Click to filter Movies"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Movies
+        </li>
+        <li
+          aria-label="Click to filter Multimedia"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Multimedia
+        </li>
+        <li
+          aria-label="Click to filter Multimedia/Photos"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Multimedia/Photos
+        </li>
+        <li
+          aria-label="Click to filter N.Y. / Region"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          N.Y. / Region
+        </li>
+        <li
+          aria-label="Click to filter N.Y./Region"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          N.Y./Region
+        </li>
+        <li
+          aria-label="Click to filter NYRegion"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          NYRegion
+        </li>
+        <li
+          aria-label="Click to filter NYT Now"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          NYT Now
+        </li>
+        <li
+          aria-label="Click to filter National"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          National
+        </li>
+        <li
+          aria-label="Click to filter New York"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          New York
+        </li>
+        <li
+          aria-label="Click to filter New York and Region"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          New York and Region
+        </li>
+        <li
+          aria-label="Click to filter Obituaries"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Obituaries
+        </li>
+        <li
+          aria-label="Click to filter Olympics"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Olympics
+        </li>
+        <li
+          aria-label="Click to filter Open"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Open
+        </li>
+        <li
+          aria-label="Click to filter Opinion"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Opinion
+        </li>
+        <li
+          aria-label="Click to filter Paid Death Notices"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Paid Death Notices
+        </li>
+        <li
+          aria-label="Click to filter Public Editor"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Public Editor
+        </li>
+        <li
+          aria-label="Click to filter Real Estate"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Real Estate
+        </li>
+        <li
+          aria-label="Click to filter Science"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Science
+        </li>
+        <li
+          aria-label="Click to filter Sports"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Sports
+        </li>
+        <li
+          aria-label="Click to filter Style"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Style
+        </li>
+        <li
+          aria-label="Click to filter Sunday Magazine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Sunday Magazine
+        </li>
+        <li
+          aria-label="Click to filter Sunday Review"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Sunday Review
+        </li>
+        <li
+          aria-label="Click to filter T Magazine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          T Magazine
+        </li>
+        <li
+          aria-label="Click to filter T:Style"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          T:Style
+        </li>
+        <li
+          aria-label="Click to filter Technology"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Technology
+        </li>
+        <li
+          aria-label="Click to filter The Public Editor"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          The Public Editor
+        </li>
+        <li
+          aria-label="Click to filter The Upshot"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          The Upshot
+        </li>
+        <li
+          aria-label="Click to filter Theater"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Theater
+        </li>
+        <li
+          aria-label="Click to filter Times Topics"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Times Topics
+        </li>
+        <li
+          aria-label="Click to filter TimesMachine"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          TimesMachine
+        </li>
+        <li
+          aria-label="Click to filter Today's Headlines"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Today's Headlines
+        </li>
+        <li
+          aria-label="Click to filter Topics"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Topics
+        </li>
+        <li
+          aria-label="Click to filter Travel"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Travel
+        </li>
+        <li
+          aria-label="Click to filter U.S."
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          U.S.
+        </li>
+        <li
+          aria-label="Click to filter Universal"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Universal
+        </li>
+        <li
+          aria-label="Click to filter UrbanEye"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          UrbanEye
+        </li>
+        <li
+          aria-label="Click to filter Washington"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Washington
+        </li>
+        <li
+          aria-label="Click to filter Week in Review"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Week in Review
+        </li>
+        <li
+          aria-label="Click to filter World"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          World
+        </li>
+        <li
+          aria-label="Click to filter Your Money"
+          class="filter__option"
+          role="button"
+          tabindex="0"
+        >
+          Your Money
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  <ul
+    class="news-list__list"
+  >
+    
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="What’s next for the business of longevity?"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/09/22/business/22Longevity-Event-image/22Longevity-Event-image-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          What’s next for the business of longevity?
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T18:45:52+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            Business Day
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            DealBook spoke with the Harvard researcher and biotech founder David Sinclair about the opportunities and challenges of hacking the human lifespan.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="Glenn Youngkin Talks About Virginia. His Base Talks About Donald Trump."
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/17/us/politics/17va-chase-print1/16va-chase-1-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          Glenn Youngkin Talks About Virginia. His Base Talks About Donald Trump.
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T18:00:07+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            U.S.
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            Republicans in Virginia are saying what their nominee for governor will not: The governor’s race is a proxy for Mr. Trump’s grievances.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="With Biden Agenda in Limbo, Democrats Work to Sell an Unfinished Promise"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/16/us/politics/16dc-demorats-1/16dc-demorats-1-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          With Biden Agenda in Limbo, Democrats Work to Sell an Unfinished Promise
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T17:11:56+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            U.S.
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            As President Biden and his allies in Congress work to whittle down the size of their ambitious domestic plans, Democrats must sell a bill without knowing precisely what will be in it.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="How 3 Strangers a World Away Came to the Rescue of a Badly Burned Afghan Girl"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/15/us/politics/16DC-asma-1/merlin_193550529_645ce688-ff08-44c8-acbe-58df624f58f7-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          How 3 Strangers a World Away Came to the Rescue of a Badly Burned Afghan Girl
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T16:40:33+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            World
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            The story of 8-year-old Asma, injured by a U.S. tear-gas canister, echoes the heartbreak and heroism of the 20-year American misadventure in Afghanistan.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="news__image news__image-placeholder"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          Variety: Jelly Roll
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T16:00:02+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            Crosswords & Games
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            Eric Berlin sends us on an inward spiral.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="After Iraqi Election, a Shiite Leader Emerges as an Unlikely U.S. Ally"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/15/world/00iraq-sadr/merlin_195793899_fb38fff4-9539-432e-abe4-7abb81547dd2-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          After Iraqi Election, a Shiite Leader Emerges as an Unlikely U.S. Ally
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T15:56:32+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            World
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            The U.S. once threatened to kill Muqtada al-Sadr as his militia battled occupying forces. Now, the powerful cleric is helping Washington by keeping Iran at bay.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="How Best to Save the Planet"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/03/opinion/sunday/28keith/28keith-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          How Best to Save the Planet
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T15:30:06+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            Opinion
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            Readers debate whether solar geoengineering, advocated in a guest essay, is a good way to address global warming.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="A Defining Test for Mr. Biden"
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/17/opinion/16taxSub/merlin_162671610_fbc850af-1f10-44dd-a2aa-5e64ca728348-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          A Defining Test for Mr. Biden
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T15:18:40+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            Opinion
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            The president needs to make the case for a big expansion of government spending.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="An F.D.A. panel explores mixing and matching vaccine doses."
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/13/us/13virus-brief-mix-match/13virus-brief-mix-match-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          An F.D.A. panel explores mixing and matching vaccine doses.
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T15:04:36+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            U.S.
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            The agency’s expert advisers discussed the data on the approach, which is limited.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Click to check news details."
+      class="news"
+      data-cy="news"
+      role="button"
+      tabindex="0"
+    >
+      <img
+        alt="The Yukon Territory imposes a vaccine mandate as cases surge in northern Canada."
+        class="news__image"
+        src="https://www.nytimes.com/images/2021/10/16/world/16virus-brief-nw-territories/merlin_165333348_c9408cac-319c-4760-af68-fe65c191303b-articleLarge.jpg"
+      />
+      <div
+        class="news__content"
+      >
+        <h2
+          class="news__header"
+          data-cy="news-header"
+        >
+          The Yukon Territory imposes a vaccine mandate as cases surge in northern Canada.
+        </h2>
+        <div
+          class="news__subheader"
+        >
+          <time
+            class="news__date"
+            datetime="2021-10-16T15:04:36+0000"
+          >
+            October 16, 2021
+          </time>
+          <div
+            class="news__section-name"
+          >
+            World
+          </div>
+        </div>
+        <div
+          class="news__main"
+        >
+          <div
+            class="news__details"
+          >
+            Health care workers and others in the Yukon must be fully vaccinated by Nov. 30. The territory is also starting a vaccination passport program.
+          </div>
+        </div>
+        <div
+          class="news__footer"
+        >
+           Source: The New York Times
+        </div>
+      </div>
+    </li>
+    
+  </ul>
+  <div
+    class="news-list__pagination"
+  >
+    <div
+      class="pagination"
+      data-cy="pagination"
+    >
+      <button
+        aria-label="Click to select first page"
+        class="pagination__button"
+        disabled=""
+        id="button-to-first-page"
+      >
+         &lt; &lt; 
+      </button>
+      <button
+        aria-label="Click to select the previous page"
+        class="pagination__button"
+        disabled=""
+        id="button-to-previous-page"
+      >
+         &lt; 
+      </button>
+      
+      <button
+        aria-label="Click to select page 1"
+        class="pagination__button pagination__button--active"
+      >
+        1
+      </button>
+      <button
+        aria-label="Click to select page 2"
+        class="pagination__button"
+      >
+        2
+      </button>
+      <button
+        aria-label="Click to select page 3"
+        class="pagination__button"
+      >
+        3
+      </button>
+      <button
+        aria-label="Click to select page 4"
+        class="pagination__button"
+      >
+        4
+      </button>
+      <button
+        aria-label="Click to select page 5"
+        class="pagination__button"
+      >
+        5
+      </button>
+      
+      <button
+        aria-label="Click to select the next page"
+        class="pagination__button"
+        id="button-to-next-page"
+      >
+         &gt; 
+      </button>
+      <button
+        aria-label="Click to select last page"
+        class="pagination__button"
+        id="button-to-last-page"
+      >
+         &gt;&gt; 
+      </button>
+    </div>
+  </div>
+  <!--v-if-->
+</div>
+`;

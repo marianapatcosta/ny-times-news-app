@@ -1,0 +1,42 @@
+.pagination {
+  background-color: $color-secondary;
+  box-shadow: 0 0.125rem 0.5rem rgba($color-black, 0.7);
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  user-select: none;
+
+  &__button {
+    cursor: pointer;
+    color: $color-primary;
+    margin: 0 0.15rem;
+    padding: 0.25rem;
+
+    &--active {
+      background-color: $color-primary;
+      color: $color-secondary;
+      font-weight: 700;
+    }
+
+    &:hover {
+      transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -o-transform: scale(1.25);
+}
+
+    &:disabled {
+      cursor: revert;
+
+      &:hover {
+        transform: revert;
+        -webkit-transform: revert;
+        -moz-transform: revert;
+        -ms-transform: revert;
+        -o-transform: revert;
+      }
+    }
+  }
+}
+
+

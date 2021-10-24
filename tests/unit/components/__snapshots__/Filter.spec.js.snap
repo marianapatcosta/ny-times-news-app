@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter.vue should render without errors and match snapshot renders correctly 1`] = `
+<div
+  class="filter"
+>
+  <button
+    aria-label="Click to check filter options"
+    class="filter__button"
+  >
+    Filter by
+  </button>
+  <ul
+    class="filter__content"
+    style="display: none;"
+  >
+    <li>
+      <input
+        aria-label="Search..."
+        class="filter__search"
+        placeholder="Search..."
+      />
+    </li>
+    
+    <li
+      aria-label="Click to filter All"
+      class="filter__option"
+      role="button"
+      tabindex="0"
+    >
+      All
+    </li>
+    <li
+      aria-label="Click to filter Option 1"
+      class="filter__option"
+      role="button"
+      tabindex="0"
+    >
+      Option 1
+    </li>
+    <li
+      aria-label="Click to filter Option 2"
+      class="filter__option"
+      role="button"
+      tabindex="0"
+    >
+      Option 2
+    </li>
+    
+  </ul>
+</div>
+`;

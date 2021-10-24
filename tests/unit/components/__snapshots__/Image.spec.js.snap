@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image.vue should render without errors and match snapshot renders correctly 1`] = `
+<div
+  class="image__wrapper"
+  methods="[object Object]"
+  props="[object Object]"
+>
+  <div
+    class="image__placeholder"
+  />
+  <img
+    class="image"
+    loading="lazy"
+    style="display: none;"
+  />
+</div>
+`;

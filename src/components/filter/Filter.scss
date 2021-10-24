@@ -1,0 +1,63 @@
+.filter {
+  position: relative;
+  width: 10rem;
+
+  &__button {
+    background-color: $color-secondary;
+    box-shadow: 0 0.05rem 0.3rem rgba($color-black, 0.5);
+    color: $color-primary;
+    cursor: pointer;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  &__search {
+    background-color: $color-primary;
+    color: $color-secondary;
+    position: sticky;
+    top: 0;
+    
+    input {
+      margin-left: 0.125rem;
+      margin-top: 0.165rem;
+      padding: 0.2rem;
+      width: calc(100% - 0.25rem);
+    }
+
+    & input::placeholder {
+      color: $color-secondary;
+      font-style: italic;
+    }
+  }
+
+  &__content {
+    list-style: none;
+    max-height: 8rem;
+    position: absolute;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: $color-primary;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__option {
+    cursor: pointer;
+    padding: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+
+    &--active {
+      background-color: $color-secondary;
+      color: $color-primary;
+    }
+
+    &:hover {
+      background-color: $color-secondary;
+      color: $color-primary;
+    }
+  }
+}
