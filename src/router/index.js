@@ -12,7 +12,7 @@ const routes = [
     name: "news-details",
     component: () => import("../views/news-details/NewsDetails.vue"),
   },
-  { path: '/:pathMatch(.*)*', name: 'not-found', redirect: '/' },
+  { path: "/:pathMatch(.*)*", name: "not-found", redirect: "/" },
 ];
 
 const router = createRouter({
