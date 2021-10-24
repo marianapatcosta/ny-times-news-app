@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search.vue should render without errors and match snapshot renders correctly 1`] = `
+<input
+  aria-label="Search New York time News"
+  class="search"
+  placeholder="Search by..."
+  type="search"
+/>
+`;

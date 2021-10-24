@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination.vue should render without errors and match snapshot renders correctly 1`] = `
+<div
+  class="pagination"
+  data-cy="pagination"
+>
+  <button
+    aria-label="Click to select first page"
+    class="pagination__button"
+    disabled=""
+    id="button-to-first-page"
+  >
+     &lt; &lt; 
+  </button>
+  <button
+    aria-label="Click to select the previous page"
+    class="pagination__button"
+    disabled=""
+    id="button-to-previous-page"
+  >
+     &lt; 
+  </button>
+  
+  <button
+    aria-label="Click to select page 1"
+    class="pagination__button pagination__button--active"
+  >
+    1
+  </button>
+  <button
+    aria-label="Click to select page 2"
+    class="pagination__button"
+  >
+    2
+  </button>
+  <button
+    aria-label="Click to select page 3"
+    class="pagination__button"
+  >
+    3
+  </button>
+  <button
+    aria-label="Click to select page 4"
+    class="pagination__button"
+  >
+    4
+  </button>
+  <button
+    aria-label="Click to select page 5"
+    class="pagination__button"
+  >
+    5
+  </button>
+  
+  <button
+    aria-label="Click to select the next page"
+    class="pagination__button"
+    id="button-to-next-page"
+  >
+     &gt; 
+  </button>
+  <button
+    aria-label="Click to select last page"
+    class="pagination__button"
+    id="button-to-last-page"
+  >
+     &gt;&gt; 
+  </button>
+</div>
+`;

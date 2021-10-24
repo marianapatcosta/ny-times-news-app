@@ -3,4 +3,7 @@ module.exports = {
   transform: {
     "^.+\\.vue$": "vue-jest",
   },
+  snapshotSerializers: ["jest-serializer-vue"],
+  collectCoverage: true,
+  coverageReporters: ["text"],
 };

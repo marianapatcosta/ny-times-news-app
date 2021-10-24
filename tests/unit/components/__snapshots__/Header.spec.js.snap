@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue should render without errors and match snapshot renders correctly 1`] = `
+<header>
+  <h1>
+    Header Title
+  </h1>
+</header>
+`;

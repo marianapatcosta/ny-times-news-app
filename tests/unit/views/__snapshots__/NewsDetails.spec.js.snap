@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsDetails.vue should render without errors and match snapshot renders correctly 1`] = `
+<article
+  class="news-details"
+  data-cy="news-details"
+>
+  <header>
+    <div
+      class="news-details__section-name"
+    >
+      T Magazine
+    </div>
+    <h1
+      class="news-details__title"
+    >
+      The headline
+    </h1>
+    <time
+      class="news-details__date"
+      datetime="2021-10-15T11:00:12+0000"
+    >
+      October 15, 2021
+    </time>
+    <div
+      class="news-details__abstract"
+    >
+      Lorem ipsum dolor sit amet. Non fugiat mollitia est nihil fugiat ea amet exercitationem. Et similique minus qui voluptas galisum et culpa tempora ea reprehenderit repudiandae.
+    </div>
+    <div
+      class="image__wrapper news-details__image"
+    >
+      <div
+        class="image__placeholder"
+      />
+      <img
+        alt="The headline"
+        class="image"
+        loading="lazy"
+        src="https://www.nytimes.com/images/2021/10/15/t-magazine/15tmag-harlemymca-slide-AEU3-copy/15tmag-harlemymca-slide-AEU3-copy-articleLarge.jpg"
+        style="display: none;"
+      />
+    </div>
+  </header>
+  <div
+    class="news-details__content"
+  >
+    <div
+      class="news-details__details"
+    >
+      Lorem ipsum dolor sit amet. Sed voluptatem architecto ut culpa soluta nam autem tempore? A repudiandae dolorem a rerum praesentium hic eveniet quia est dolores magnam ut odit saepe hic autem voluptatibus. Ab sunt esse sed nihil reiciendis non sapiente iusto est doloremque dolorem. Ex debitis cum nulla officiis ea repellendus nemo.
+    </div>
+    <div
+      class="news-details__source"
+    >
+       Source: The New York Times
+    </div>
+    <div
+      class="news-details__read-more"
+    >
+      <a
+        data-cy="read-more-button"
+        href="https://www.nytimes.com/2021/10/15/t-magazine/harlem-ymca-black-culture.html"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+      >
+        read more 
+      </a>
+    </div>
+  </div>
+</article>
+`;
