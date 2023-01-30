@@ -28,10 +28,11 @@ exports[`NewsList.vue with successful GET request should render without errors a
         class="filter__content"
         style="display: none;"
       >
-        <li>
+        <li
+          class="filter__search"
+        >
           <input
             aria-label="Search section..."
-            class="filter__search"
             placeholder="Search section..."
           />
         </li>

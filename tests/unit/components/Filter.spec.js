@@ -51,7 +51,7 @@ describe("Filter.vue", () => {
   });
 
   it("should render 'Search by' in search box when props.placeholder is not passed", () => {
-    const search = wrapper.find(".filter__search");
+    const search = wrapper.find(".filter__search input");
     expect(search.attributes("placeholder")).toMatch("Search...");
   });
 
@@ -60,7 +60,7 @@ describe("Filter.vue", () => {
     const wrapper = mount(Filter, {
       props: { options, placeholder },
     });
-    const search = wrapper.find(".filter__search");
+    const search = wrapper.find(".filter__search input");
     expect(search.attributes("placeholder")).toMatch(placeholder);
   });
 

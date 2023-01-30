@@ -14,10 +14,11 @@ exports[`Filter.vue should render without errors and match snapshot renders corr
     class="filter__content"
     style="display: none;"
   >
-    <li>
+    <li
+      class="filter__search"
+    >
       <input
         aria-label="Search..."
-        class="filter__search"
         placeholder="Search..."
       />
     </li>
